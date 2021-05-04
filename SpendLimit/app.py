@@ -23,9 +23,12 @@ Latest30DaysTransactions = []
 print("\n")
 
 for i in range(TrLen):
-	date = input('Tell me the transaction date in this format "03.11.21" (Exactly as in your statment): ', end="")
+
+	print('Tell me the transaction date in this format "03.11.21" (Exactly as in your statment): ', end="")
+	date = input()
 	print('')
-	amount = input('Tell me the transaction amount in this format "35.19" / "8.00" (Exactly as in your statment): ', end="")
+	print('Tell me the transaction amount in this format "35.19" / "8.00" (Exactly as in your statment): ', end="")
+	amount = input()
 
 	print('\n')
 
